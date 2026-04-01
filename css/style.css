@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(202, 202, 202);
+    font-family: Arial;
+}
+
+#box {
+    border: 3px solid rgb(139, 214, 233);
+    padding: 20px;
+    margin: 20px;
+}
+
+h1 {
+    color: rgb(17, 123, 223);
+}
+
+h2 {
+    color: rgb(22, 192, 121);
+}
+
+img {
+    width: 200px;
+    border: 3px solid black;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
