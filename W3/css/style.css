@@ -23,6 +23,16 @@ body{
 
 }
 
+#header:hover{
+    background-color: lightblue;
+}
+
+
+.nav-btn:visited{
+    background-color: lightgray;
+}
+
+
 #nav-bar{
     height: 50px;
    text-align: center;
