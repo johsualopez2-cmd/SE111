@@ -1,5 +1,5 @@
 h1{
-    background-color: beige;
+    background-color: rgb(113, 173, 197);
 }
 
 body{
@@ -7,14 +7,14 @@ body{
     justify-content: center;
     height: 100vh;
 
-    background-color: aquamarine;
+    background-color: rgb(165, 207, 255);
 }
 #main-container{
     border: 5px solid black;
     width: 1000px;
     height: 800px;
 
-    background-color: turquoise;
+    background-color: rgb(174, 184, 241);
 }
 #header{
     height: 130px;
@@ -60,3 +60,11 @@ body{
     font-size: 20px;
     border: 2px double burlywood;
 }
+
+@keyframes colorChange{
+    from{
+        background-color: lightblue;
+    }
+    to{
+        background-color: lightgreen;
+    }
