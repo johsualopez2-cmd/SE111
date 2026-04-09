@@ -7,6 +7,7 @@ body{
     display: flex;
     justify-content: center;
     height: 100vh;
+    font-family: 'Audiowide', cursive;
     
     background-color: rgb(165, 207, 255);
     animation: upDown 4s ease-in-out infinite alternate;
@@ -70,7 +71,7 @@ body{
         background-color: lightblue;
     }
     to{
-        background-color: rgb(144, 206, 247);
+        background-color: rgb(66, 63, 63);
     }
 }
 
