@@ -9,7 +9,7 @@ body{
     height: 100vh;
     
     background-color: rgb(165, 207, 255);
-    
+    animation: upDown 4s ease-in-out infinite alternate;
 }
 #main-container{
     border: 5px solid black;
@@ -57,7 +57,7 @@ body{
     width: 650px;
     text-align: center;
     margin: auto;
-    animation: movement 1s ease-in-out infinite alternate;
+    animation: upDown 4s ease-in-out infinite alternate;
 }
 
 #IoremIpsum{
@@ -70,7 +70,7 @@ body{
         background-color: lightblue;
     }
     to{
-        background-color: lightgreen;
+        background-color: rgb(144, 206, 247);
     }
 }
 
@@ -89,5 +89,17 @@ body{
     }
     100%{
         transform: translate(50px,10px) rotate(180deg);
+    }
+}
+
+@keyframes upDown{
+    0%{
+        transform: translateY(-12px);
+    }
+    50%{
+        transform: translateY(12px);
+    }
+    100%{
+        transform: translateY(-12px);
     }
 }
