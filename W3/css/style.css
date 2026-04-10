@@ -1,0 +1,106 @@
+h1{
+    background-color: rgb(113, 173, 197);
+    font-family: 'Audiowide', cursive;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Audiowide', cursive;
+    
+    background-color: rgb(165, 207, 255);
+    animation: upDown 4s ease-in-out infinite alternate;
+}
+#main-container{
+    border: 5px solid black;
+    width: 1000px;
+    height: 800px;
+
+    background-color: rgb(174, 184, 241);
+    animation: colorChange 6s ease-in-out infinite alternate;
+}
+#header{
+    height: 130px;
+    border: 3px dotted blue;
+    text-align: center;
+
+}
+
+#header:hover{
+    background-color: lightblue;
+}
+
+
+.nav-btn:visited{
+    background-color: lightgray;
+}
+
+
+#nav-bar{
+    height: 50px;
+   text-align: center;
+   border-top: 2px solid black;
+   border-bottom: 2px solid black;
+   
+   padding-top: 25px;
+}
+/*specify a class */
+
+.nav-btn{
+    border: 5px solid black;
+    padding: 25px;
+    margin: 0px 10px;
+    background-color: white;
+}
+#content{
+    height: 520px;
+    width: 650px;
+    text-align: center;
+    margin: auto;
+    animation: upDown 4s ease-in-out infinite alternate;
+}
+
+#IoremIpsum{
+    font-size: 20px;
+    border: 2px double burlywood;
+}
+
+@keyframes colorChange{
+    from{
+        background-color: lightblue;
+    }
+    to{
+        background-color: rgb(66, 63, 63);
+    }
+}
+
+@keyframes movement{
+    0%{
+        transform: translate(50px,10px);
+    }
+    20%{
+        transform: rotate(275deg) translate(-100px,50px);
+    }
+    30%{
+        transform: rotate(-180deg) scale(2);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: translate(50px,10px) rotate(180deg);
+    }
+}
+
+@keyframes upDown{
+    0%{
+        transform: translateY(-12px);
+    }
+    50%{
+        transform: translateY(12px);
+    }
+    100%{
+        transform: translateY(-12px);
+    }
+}
