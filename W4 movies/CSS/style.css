@@ -132,3 +132,10 @@ hr {
 .character p {
     margin-top: 8px;
 }
+iframe {
+    display: block;
+    margin: 15px 0;
+    max-width: 100%;
+    border: 2px solid #aeb8c2;
+    border-radius: 6px;
+}
