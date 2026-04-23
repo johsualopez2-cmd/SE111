@@ -120,3 +120,15 @@ hr {
         transform: translateY(0);
     }
 }
+.character {
+    margin-bottom: 20px;
+}
+
+.character img {
+    height: 50px;
+    width: auto;
+}
+
+.character p {
+    margin-top: 8px;
+}
