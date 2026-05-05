@@ -11,11 +11,11 @@ function calculator() {
     const num2 = parseFloat(prompt("Enter the second number:"));
     const op = prompt("Choose operation: add or multiply");
     if (op === "add") {
-        alert("The answer is: " + add(num1, num2));
+        document.getElementById("result").textContent = "The answer is: " + add(num1, num2);
     } else if (op === "multiply"){
-        alert("The answer is:" + multiply(num1, num2));
+        document.getElementById("result").textContent = "The answer is:" + multiply(num1, num2);
     } else {
-        alert("Invalid operation")
+        document.getElementById("result").textContent = "Invalid operation"
     }
 }
  
