@@ -6,7 +6,7 @@ function calculatepay() {
 
     const grosspay = hourlyPay * hoursWorked * weeks;
     const uncleSamsShare = grosspay * taxrate;
-    const netpay = grosspay - uncleSamsShare
+    const netpay = grosspay - uncleSamsShare;
 
     const message =
         "Gross Pay: $" + grosspay.toFixed(2) + "\n" +
