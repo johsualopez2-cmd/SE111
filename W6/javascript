@@ -1,0 +1,3 @@
+const op = promp("Choose operation: add or multiply");
+// basic input request
+
